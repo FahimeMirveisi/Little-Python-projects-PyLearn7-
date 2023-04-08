@@ -25,7 +25,7 @@ Check whether it is a triangle or not according to the following rule:
 
 #Academic status of students
 
-![Status](Assignment1/medias/Capture.png)
+![Status](medias/Capture.png)
 
 ---
 
