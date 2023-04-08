@@ -15,7 +15,7 @@ This Calculator has below features:
 
 ---
 
-#Triangle rule
+# Triangle rule
 
 Check whether it is a triangle or not according to the following rule:
 
@@ -23,12 +23,12 @@ Check whether it is a triangle or not according to the following rule:
 
 ---
 
-#Academic status of students
+# Academic status of students
 
 ![Status](medias/Capture.PNG)
 
 ---
 
-#BMI calculator
+# BMI calculator
 
 ![BMI](medias/Capture1.PNG)
