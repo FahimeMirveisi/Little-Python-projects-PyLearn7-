@@ -25,10 +25,10 @@ Check whether it is a triangle or not according to the following rule:
 
 #Academic status of students
 
-![Status](F:\PyLearn7 Projects\Little-Python-projects-PyLearn7-\Assignment1\medias\Capture.PNG)
+![Status](Assignment1/medias/Capture.PNG)
 
 ---
 
 #BMI calculator
 
-![BMI](F:\PyLearn7 Projects\Little-Python-projects-PyLearn7-\Assignment1\medias\Capture1.PNG)
+![BMI](Assignment1/medias/Capture1.PNG)
