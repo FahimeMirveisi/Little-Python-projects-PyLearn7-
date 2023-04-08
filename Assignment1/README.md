@@ -25,10 +25,10 @@ Check whether it is a triangle or not according to the following rule:
 
 #Academic status of students
 
-![Status](Assignment1/medias/Capture.PNG)
+![Status](Assignment1/medias/Capture.png)
 
 ---
 
 #BMI calculator
 
-![BMI](Assignment1/medias/Capture1.PNG)
+![BMI](medias/Capture1.PNG)
