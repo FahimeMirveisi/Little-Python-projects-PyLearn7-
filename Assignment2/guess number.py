@@ -1,10 +1,16 @@
 import random
 
-computer_number = random.randint(30, 70)
+print('Enter range of number that you want computer to choose:')
+
+start_number = int(input('Start_number:'))
+end_number = int(input('end_number:'))
+
+computer_number = random.randint(start_number, end_number)
 guess_number = 0
 
 while True:
-    user_number = int(input('Enter the number between 30 and 70 that you guess:'))
+    print('Enter the number between {} and {} that you guess:'.format(start_number, end_number))
+    user_number = int(input())
     guess_number = guess_number +1
 
     if computer_number == user_number:
