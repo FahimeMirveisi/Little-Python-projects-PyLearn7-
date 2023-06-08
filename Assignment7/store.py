@@ -1,4 +1,4 @@
-
+import qrcode
 PRODUCTS = []
 
 
@@ -32,6 +32,17 @@ def get_product_code():
     return product_code
 
 
+def qr_code():
+    produce_code = get_product_code()
+    for product in PRODUCTS:
+        if product["code"] == produce_code:
+            qr_str = product["code"] + "|" + product["name"] + "|" + product["price"] + "|" + product["count"]
+            break
+
+    img = qrcode.make(qr_str)
+    img.save("F:\PyLearn7 Projects\Little-Python-projects-PyLearn7-\Assignment7\product_information.png")
+
+
 def factor(user_basket):
     print("Name\tPrice of one item\tnumber of items")
 
@@ -50,7 +61,8 @@ def show_menu():
     print("4 -Search")
     print("5- Show List")
     print("6- Buy")
-    print("7- Exit")
+    print("7- QR_Code")
+    print("8- Exit")
 
 
 def add():
@@ -182,7 +194,9 @@ while True:
     elif choice == 6:
         buy()
     elif choice == 7:
+        qr_code()
+    elif choice == 8:
         write_to_database()
         exit(0)
     else:
-        print("Enter a number between 1 and 7")
+        print("Enter a number between 1 and 8")
