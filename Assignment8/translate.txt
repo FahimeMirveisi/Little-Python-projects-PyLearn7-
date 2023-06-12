@@ -204,3 +204,7 @@ best
 behtarin
 for
 baraye
+chocolate
+shokolat
+ring
+angoshtar
